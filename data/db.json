@@ -1,0 +1,35 @@
+{
+  "documents": [
+    {
+      "id": "DOC-001",
+      "originalFilename": "sample_invoice.csv",
+      "documentType": "Invoice",
+      "status": "Success",
+      "timestamp": "2024-01-15T10:30:00.000Z",
+      "records": []
+    },
+    {
+      "id": "DOC-002",
+      "originalFilename": "purchase_order.csv",
+      "documentType": "Purchase Order",
+      "status": "Failed",
+      "timestamp": "2024-01-15T09:15:00.000Z",
+      "records": []
+    }
+  ],
+  "tickets": [
+    {
+      "id": "TKT-001",
+      "documentId": "DOC-002",
+      "issue": "CSV validation failed",
+      "status": "Pending",
+      "timestamp": "2024-01-15T09:20:00.000Z",
+      "notes": [
+        {
+          "note": "Initial ticket created for validation failure",
+          "timestamp": "2024-01-15T09:20:00.000Z"
+        }
+      ]
+    }
+  ]
+}
