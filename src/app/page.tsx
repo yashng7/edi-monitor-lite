@@ -22,7 +22,7 @@ interface Document {
   documentType: string
   status: string
   timestamp: string
-  records?: any[]
+  records?: Record<string, unknown>[]
 }
 
 interface Ticket {
